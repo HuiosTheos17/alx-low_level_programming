@@ -1,4 +1,2 @@
 #!/bin/bash
-CFILE="$1"
-BASENAME="${CFILE%.*}"
-gcc -c "$CFIL"${BASENAME}.o"
+gcc -c "$CFILE" "${$CFILE%.c}".o
