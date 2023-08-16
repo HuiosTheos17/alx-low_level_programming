@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "main.h" 
 
 int main() {
-    printf("_putchar\n");
+    _putchar("_putchar");
     return 0;
 }
